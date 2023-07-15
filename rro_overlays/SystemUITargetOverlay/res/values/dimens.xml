@@ -37,4 +37,7 @@
      screen directly in front of the sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2163px</dimen>
 
+    <!-- decrease keyguard bottom info margim -->
+    <dimen name="keyguard_indication_margin_bottom">4dp</dimen>
+    
 </resources>
