@@ -39,9 +39,11 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_psyche)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    SettingsTargetOverlay \
+    SystemUITargetOverlay
 
 # Sensors
 PRODUCT_COPY_FILES += \
