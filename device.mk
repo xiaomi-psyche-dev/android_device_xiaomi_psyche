@@ -47,7 +47,8 @@ PRODUCT_PACKAGES += \
     ApertureTargetOverlay \
     FrameworksTargetOverlay \
     SettingsTargetOverlay \
-    SystemUITargetOverlay
+    SystemUITargetOverlay \
+    UpdaterOverlay
 
 # Sensors
 PRODUCT_COPY_FILES += \
