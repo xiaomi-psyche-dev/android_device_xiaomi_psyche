@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
  <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/xiaomi-psyche-dev/OTA/pos/updater/psyche.json</string>
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/xiaomi-psyche-dev/OTA/pos/changelogs/psyche.md</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/xiaomi-psyche-dev/OTA/PixelOS/updater/psyche.json</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/xiaomi-psyche-dev/OTA/PixelOS/changelogs/psyche.md</string>
  </resources>
