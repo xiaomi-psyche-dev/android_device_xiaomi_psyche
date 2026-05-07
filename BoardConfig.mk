@@ -24,6 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := psyche
 # Properties
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/psyche/BoardConfigVendor.mk
