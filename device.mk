@@ -13,6 +13,9 @@ TARGET_HAS_UDFPS := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Inherit keys
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
