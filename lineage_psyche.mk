@@ -14,6 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from psyche device
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
+AVIUM_MAINTAINER ?= mtkpapa
+AVIUM_SETTINGS_SOC_MODEL_NAME ?= Snapdragon 870
+AVIUM_SETTINGS_DEVICE_CODENAME ?= psyche
+WITH_GMS ?= true
+AVIUM_FORCE_SET_FAKE_PROP ?= true
+
 PRODUCT_NAME := lineage_psyche
 PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
