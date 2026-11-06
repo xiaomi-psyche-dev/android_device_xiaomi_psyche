@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources>
+    <!-- Shown in Settings > About phone as "Built by ..." -->
+    <string name="derpfest_maintainer" translatable="false">mtkpapa</string>
+</resources>
